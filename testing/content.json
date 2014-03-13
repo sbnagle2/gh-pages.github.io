@@ -1,0 +1,297 @@
+{
+  "id": "df28297c035f2b126d3f613b7104c87e",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "df28297c035f2b126d3f613b7104c87e",
+      "creator": "",
+      "title": "Testing",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-03-12T22:37:04.110Z",
+      "updated_at": "2014-03-13T01:40:24.426Z",
+      "published_on": "2014-03-13T01:40:24.425Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text1"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": [
+        "figure_846b2e92d9f6bd36eb7a21ce8d3b25a5",
+        "figure_69f2968d56b2fb702cf91237af4b3d0b",
+        "figure_a64584719cd13af4e7acb9f229ae3125",
+        "figure_ad62ba21abefe72dd64f089833892036",
+        "figure_2a91590d5029d2ba2ec37651a19605da",
+        "figure_a966b16937030726412083f8350ee88d",
+        "figure_6e853fe79266df0d83b70aacdc20d74c",
+        "figure_cbb032b69f1c76385d379b0bb8c57ab4",
+        "figure_211a5f57ca681014d6930591eefea061",
+        "figure_fb3678ec91b425c5b5cf806724660d29",
+        "figure_2435251cc5e1bad96bab6496457d599d"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": [
+        "remark_6114aaadb61231d081ead2b85c72da5c"
+      ]
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum."
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "Sarah Nagle",
+      "role": "author",
+      "organization": "University of Illinois at Urbana-Champaign",
+      "image": "contributor_1.png",
+      "email": "sbnagle2@illinois.edu"
+    },
+    "publish_settings.json": {
+      "type": "file",
+      "id": "publish_settings.json",
+      "version": 1,
+      "content_type": "application/json"
+    },
+    "text_5b1813890e49e82558ef2dcc3f1c85c0": {
+      "type": "text",
+      "id": "text_5b1813890e49e82558ef2dcc3f1c85c0",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_846b2e92d9f6bd36eb7a21ce8d3b25a5": {
+      "type": "figure",
+      "id": "figure_846b2e92d9f6bd36eb7a21ce8d3b25a5",
+      "image": "figure_846b2e92d9f6bd36eb7a21ce8d3b25a5.png",
+      "image_url": "",
+      "label": "Figure 1",
+      "caption": "text_5b1813890e49e82558ef2dcc3f1c85c0"
+    },
+    "link_8347b99204d9b857ee301b9d8b767d42": {
+      "type": "link",
+      "id": "link_8347b99204d9b857ee301b9d8b767d42",
+      "path": [
+        "text1",
+        "content"
+      ],
+      "range": [
+        254,
+        261
+      ],
+      "url": "http://example.com"
+    },
+    "remark_6114aaadb61231d081ead2b85c72da5c": {
+      "type": "remark",
+      "id": "remark_6114aaadb61231d081ead2b85c72da5c",
+      "title": "",
+      "description": "",
+      "creator": "Michael Aufreiter",
+      "created_at": "2014-03-12T23:44:54.706Z"
+    },
+    "text_f0743793b99fa3c92191b999573ef0d4": {
+      "type": "text",
+      "id": "text_f0743793b99fa3c92191b999573ef0d4",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_69f2968d56b2fb702cf91237af4b3d0b": {
+      "type": "figure",
+      "id": "figure_69f2968d56b2fb702cf91237af4b3d0b",
+      "image": "",
+      "image_url": "",
+      "label": "Figure 2",
+      "caption": "text_f0743793b99fa3c92191b999573ef0d4"
+    },
+    "text_b1970cbd5b722563412b4d62154e0d74": {
+      "type": "text",
+      "id": "text_b1970cbd5b722563412b4d62154e0d74",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_a64584719cd13af4e7acb9f229ae3125": {
+      "type": "figure",
+      "id": "figure_a64584719cd13af4e7acb9f229ae3125",
+      "image": "",
+      "image_url": "",
+      "label": "Figure 3",
+      "caption": "text_b1970cbd5b722563412b4d62154e0d74"
+    },
+    "text_754b2f59524e67a158d3216986f31232": {
+      "type": "text",
+      "id": "text_754b2f59524e67a158d3216986f31232",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_ad62ba21abefe72dd64f089833892036": {
+      "type": "figure",
+      "id": "figure_ad62ba21abefe72dd64f089833892036",
+      "image": "",
+      "image_url": "",
+      "label": "Figure 4",
+      "caption": "text_754b2f59524e67a158d3216986f31232"
+    },
+    "text_e7277c76b0ea16bcece5bb751695e87b": {
+      "type": "text",
+      "id": "text_e7277c76b0ea16bcece5bb751695e87b",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_2a91590d5029d2ba2ec37651a19605da": {
+      "type": "figure",
+      "id": "figure_2a91590d5029d2ba2ec37651a19605da",
+      "image": "",
+      "image_url": "",
+      "label": "Figure 5",
+      "caption": "text_e7277c76b0ea16bcece5bb751695e87b"
+    },
+    "text_b3800a34e8bc60eeaba852709ec2aae5": {
+      "type": "text",
+      "id": "text_b3800a34e8bc60eeaba852709ec2aae5",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_a966b16937030726412083f8350ee88d": {
+      "type": "figure",
+      "id": "figure_a966b16937030726412083f8350ee88d",
+      "image": "",
+      "image_url": "",
+      "label": "Figure 6",
+      "caption": "text_b3800a34e8bc60eeaba852709ec2aae5"
+    },
+    "text_d7263cf9d11607c95ecf4be785e8a141": {
+      "type": "text",
+      "id": "text_d7263cf9d11607c95ecf4be785e8a141",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_6e853fe79266df0d83b70aacdc20d74c": {
+      "type": "figure",
+      "id": "figure_6e853fe79266df0d83b70aacdc20d74c",
+      "image": "",
+      "image_url": "",
+      "label": "Figure 7",
+      "caption": "text_d7263cf9d11607c95ecf4be785e8a141"
+    },
+    "text_05268097073aeb525fdc48bbecc0b544": {
+      "type": "text",
+      "id": "text_05268097073aeb525fdc48bbecc0b544",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_cbb032b69f1c76385d379b0bb8c57ab4": {
+      "type": "figure",
+      "id": "figure_cbb032b69f1c76385d379b0bb8c57ab4",
+      "image": "",
+      "image_url": "",
+      "label": "Figure 8",
+      "caption": "text_05268097073aeb525fdc48bbecc0b544"
+    },
+    "text_b7bca4d7758fee0945ed241c217d6544": {
+      "type": "text",
+      "id": "text_b7bca4d7758fee0945ed241c217d6544",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_211a5f57ca681014d6930591eefea061": {
+      "type": "figure",
+      "id": "figure_211a5f57ca681014d6930591eefea061",
+      "image": "",
+      "image_url": "",
+      "label": "Figure 9",
+      "caption": "text_b7bca4d7758fee0945ed241c217d6544"
+    },
+    "text_758e40cd0110c4250cba8f26539860e5": {
+      "type": "text",
+      "id": "text_758e40cd0110c4250cba8f26539860e5",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_fb3678ec91b425c5b5cf806724660d29": {
+      "type": "figure",
+      "id": "figure_fb3678ec91b425c5b5cf806724660d29",
+      "image": "",
+      "image_url": "",
+      "label": "Figure 10",
+      "caption": "text_758e40cd0110c4250cba8f26539860e5"
+    },
+    "text_105aa8f414c77fed7b70158944f71f02": {
+      "type": "text",
+      "id": "text_105aa8f414c77fed7b70158944f71f02",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_2435251cc5e1bad96bab6496457d599d": {
+      "type": "figure",
+      "id": "figure_2435251cc5e1bad96bab6496457d599d",
+      "image": "",
+      "image_url": "",
+      "label": "Figure 11",
+      "caption": "text_105aa8f414c77fed7b70158944f71f02"
+    },
+    "figure_846b2e92d9f6bd36eb7a21ce8d3b25a5.png": {
+      "type": "file",
+      "id": "figure_846b2e92d9f6bd36eb7a21ce8d3b25a5.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "figure_reference_8e80c49b56a6e79ac07daec922439d30": {
+      "type": "figure_reference",
+      "id": "figure_reference_8e80c49b56a6e79ac07daec922439d30",
+      "path": [
+        "text1",
+        "content"
+      ],
+      "range": [
+        0,
+        5
+      ],
+      "target": "figure_846b2e92d9f6bd36eb7a21ce8d3b25a5"
+    },
+    "contributor_1.png": {
+      "type": "file",
+      "id": "contributor_1.png",
+      "version": 1,
+      "content_type": "image/png"
+    }
+  }
+}
